@@ -1,5 +1,5 @@
 # unicode-emoji-list
-This repo contains JSON files containing a list of emojis as based on the Unicode CLDR data and the javascript code that was used to extract and build the JSON files
+This repo contains JSON files containing a list of emojis as based on the Unicode CLDR data and the javascript code that was used to extract and build the JSON files.
 
 # Motivation
 I was working on an emoji picker plugin to be implemented via JS but was finding it hard to find a solution that would provide a list of emojis similar to what you'd find on mobile devices and most notably WhatsApp which has (aleast IMO) the best implementation of the unicode emoji standard. This repo has JSON files with the unicodes for the full emoji data listed on [unicode.org](http://unicode.org/emoji/charts/full-emoji-list.html).
@@ -52,5 +52,7 @@ Also, where applicable, the emoji's object will have a __type__ property to acco
 
 *In both json files ignore the __no__ property. I'll probably remove it later*
 
+#### API
+Not sure how long this will be available for but I came across [Myjson](http://myjson.com/) and I added the content of `simple-emoji-list.json`. You can access its JSON content via [https://api.myjson.com/bins/oc1p](https://api.myjson.com/bins/oc1p).
 
 ### Hope this helps you somehow 😃!
