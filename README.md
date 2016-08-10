@@ -53,6 +53,6 @@ Also, where applicable, the emoji's object will have a __type__ property to acco
 *In both json files ignore the __no__ property. I'll probably remove it later*
 
 #### API
-Not sure how long this will be available for but I came across [Myjson](http://myjson.com/) and I added the content of `simple-emoji-list.json`. You can access its JSON content via [https://api.myjson.com/bins/oc1p](https://api.myjson.com/bins/oc1p).
+Not sure how long this will be available for but I came across [Myjson](http://myjson.com/) and I added the content of `simple-emoji-list.json`. You can access its JSON content via [https://api.myjson.com/bins/1qt5l](https://api.myjson.com/bins/1qt5l).
 
 ### Hope this helps you somehow 😃!
