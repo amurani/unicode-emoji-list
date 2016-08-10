@@ -8,14 +8,15 @@ I was working on an emoji picker plugin to be implemented via JS but was finding
 I wrote a simple JS script that can pe pasted in the console of a browser's dev tools when on linked page above. It will extract and group the emojis for you then output a JSON string you can copy to wherever you'd want to. The emoji groupings are at the higher level as defined on this page on [emoji ordering](http://unicode.org/emoji/charts/emoji-ordering.html) from unicode.org.
 
 # The files...
-The `simple-emoji-list.json` file only has the **emoji code** while the `full-emoji-list.json` file has the **emoji code, the emoji itself** and the **emoji description**.
+The `simple-emoji-list.json` file is supposed to be smaller in size compared to the `full-emoji-list.json` file.
 
 #### simple-emoji-list.json
 ```
   ...
   {
     "no":1,
-    "code":"U+1F600"
+    "code":"U+1F600",
+    "keywords": ["face", "grin"]
   },
   ...
 ```
@@ -28,7 +29,8 @@ and
     "no":1,
     "code":"U+1F600",
     "emoji":"😀",
-    "description":"GRINNING FACE"
+    "description":"GRINNING FACE",
+    "keywords": ["face", "grin"]
   },
   ...
 ```
@@ -45,7 +47,8 @@ Also, where applicable, the emoji's object will have a __type__ property to acco
       "U+1F466 U+1F3FD",
       "U+1F466 U+1F3FC",
       "U+1F466 U+1F3FB"
-    ]
+    ],
+    "keywords": ["boy"]
   },
   ...
 ```
@@ -53,6 +56,6 @@ Also, where applicable, the emoji's object will have a __type__ property to acco
 *In both json files ignore the __no__ property. I'll probably remove it later*
 
 #### API
-Not sure how long this will be available for but I came across [Myjson](http://myjson.com/) and I added the content of `simple-emoji-list.json`. You can access its JSON content via [https://api.myjson.com/bins/1qt5l](https://api.myjson.com/bins/1qt5l).
+Not sure how long this will be available for but I came across [Myjson](http://myjson.com/) and I added the content of `simple-emoji-list.json`. You can access its JSON content via [https://api.myjson.com/bins/4sz7d](https://api.myjson.com/bins/4sz7d).
 
 ### Hope this helps you somehow 😃!
