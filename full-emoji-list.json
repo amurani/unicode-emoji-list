@@ -620,7 +620,6 @@
       "emoji":"👨",
       "description":"MAN",
       "types":[
-        "U+1F468 U+200D U+2764 U+FE0F U+200D U+1F468",
         "U+1F468 U+1F3FF",
         "U+1F468 U+1F3FE",
         "U+1F468 U+1F3FD",
@@ -634,8 +633,6 @@
       "emoji":"👩",
       "description":"WOMAN",
       "types":[
-        "U+1F469 U+200D U+2764 U+FE0F U+200D U+1F469",
-        "U+1F469 U+200D U+2764 U+FE0F U+200D U+1F468",
         "U+1F469 U+1F3FF",
         "U+1F469 U+1F3FE",
         "U+1F469 U+1F3FD",
@@ -1151,6 +1148,24 @@
       "description":"COUPLE WITH HEART"
     },
     {
+      "no":334,
+      "code":"U+1F469 U+200D U+2764 U+FE0F U+200D U+1F468",
+      "emoji":"👩‍❤️‍👨",
+      "description":"Couple with heart: WOMAN, MAN"
+    },
+    {
+      "no":335,
+      "code":"U+1F468 U+200D U+2764 U+FE0F U+200D U+1F468",
+      "emoji":"👨‍❤️‍👨",
+      "description":"Couple with heart: MAN, MAN"
+    },
+    {
+      "no":336,
+      "code":"U+1F469 U+200D U+2764 U+FE0F U+200D U+1F469",
+      "emoji":"👩‍❤️‍👩",
+      "description":"Couple with heart: WOMAN, WOMAN"
+    },
+    {
       "no":337,
       "code":"U+1F46A",
       "emoji":"👪",
@@ -1332,37 +1347,14 @@
       "no":382,
       "code":"U+261D",
       "emoji":"☝",
-      "description":"WHITE UP POINTING INDEX≊ index pointing up"
-    },
-    {
-      "no":383,
-      "code":"U+261D U+1F3FB",
-      "emoji":"☝🏻",
-      "description":"White up pointing index, type-1-2"
-    },
-    {
-      "no":384,
-      "code":"U+261D U+1F3FC",
-      "emoji":"☝🏼",
-      "description":"White up pointing index, type-3"
-    },
-    {
-      "no":385,
-      "code":"U+261D U+1F3FD",
-      "emoji":"☝🏽",
-      "description":"White up pointing index, type-4"
-    },
-    {
-      "no":386,
-      "code":"U+261D U+1F3FE",
-      "emoji":"☝🏾",
-      "description":"White up pointing index, type-5"
-    },
-    {
-      "no":387,
-      "code":"U+261D U+1F3FF",
-      "emoji":"☝🏿",
-      "description":"White up pointing index, type-6"
+      "description":"WHITE UP POINTING INDEX≊ index pointing up",
+      "types":[
+        "U+261D U+1F3FF",
+        "U+261D U+1F3FE",
+        "U+261D U+1F3FD",
+        "U+261D U+1F3FC",
+        "U+261D U+1F3FB"
+      ]
     },
     {
       "no":388,
@@ -1407,37 +1399,14 @@
       "no":406,
       "code":"U+270C",
       "emoji":"✌",
-      "description":"VICTORY HAND"
-    },
-    {
-      "no":407,
-      "code":"U+270C U+1F3FB",
-      "emoji":"✌🏻",
-      "description":"Victory hand, type-1-2"
-    },
-    {
-      "no":408,
-      "code":"U+270C U+1F3FC",
-      "emoji":"✌🏼",
-      "description":"Victory hand, type-3"
-    },
-    {
-      "no":409,
-      "code":"U+270C U+1F3FD",
-      "emoji":"✌🏽",
-      "description":"Victory hand, type-4"
-    },
-    {
-      "no":410,
-      "code":"U+270C U+1F3FE",
-      "emoji":"✌🏾",
-      "description":"Victory hand, type-5"
-    },
-    {
-      "no":411,
-      "code":"U+270C U+1F3FF",
-      "emoji":"✌🏿",
-      "description":"Victory hand, type-6"
+      "description":"VICTORY HAND",
+      "types":[
+        "U+270C U+1F3FF",
+        "U+270C U+1F3FE",
+        "U+270C U+1F3FD",
+        "U+270C U+1F3FC",
+        "U+270C U+1F3FB"
+      ]
     },
     {
       "no":412,
@@ -1508,37 +1477,14 @@
       "no":442,
       "code":"U+270B",
       "emoji":"✋",
-      "description":"RAISED HAND"
-    },
-    {
-      "no":443,
-      "code":"U+270B U+1F3FB",
-      "emoji":"✋🏻",
-      "description":"Raised hand, type-1-2"
-    },
-    {
-      "no":444,
-      "code":"U+270B U+1F3FC",
-      "emoji":"✋🏼",
-      "description":"Raised hand, type-3"
-    },
-    {
-      "no":445,
-      "code":"U+270B U+1F3FD",
-      "emoji":"✋🏽",
-      "description":"Raised hand, type-4"
-    },
-    {
-      "no":446,
-      "code":"U+270B U+1F3FE",
-      "emoji":"✋🏾",
-      "description":"Raised hand, type-5"
-    },
-    {
-      "no":447,
-      "code":"U+270B U+1F3FF",
-      "emoji":"✋🏿",
-      "description":"Raised hand, type-6"
+      "description":"RAISED HAND",
+      "types":[
+        "U+270B U+1F3FF",
+        "U+270B U+1F3FE",
+        "U+270B U+1F3FD",
+        "U+270B U+1F3FC",
+        "U+270B U+1F3FB"
+      ]
     },
     {
       "no":448,
@@ -1583,37 +1529,14 @@
       "no":466,
       "code":"U+270A",
       "emoji":"✊",
-      "description":"RAISED FIST"
-    },
-    {
-      "no":467,
-      "code":"U+270A U+1F3FB",
-      "emoji":"✊🏻",
-      "description":"Raised fist, type-1-2"
-    },
-    {
-      "no":468,
-      "code":"U+270A U+1F3FC",
-      "emoji":"✊🏼",
-      "description":"Raised fist, type-3"
-    },
-    {
-      "no":469,
-      "code":"U+270A U+1F3FD",
-      "emoji":"✊🏽",
-      "description":"Raised fist, type-4"
-    },
-    {
-      "no":470,
-      "code":"U+270A U+1F3FE",
-      "emoji":"✊🏾",
-      "description":"Raised fist, type-5"
-    },
-    {
-      "no":471,
-      "code":"U+270A U+1F3FF",
-      "emoji":"✊🏿",
-      "description":"Raised fist, type-6"
+      "description":"RAISED FIST",
+      "types":[
+        "U+270A U+1F3FF",
+        "U+270A U+1F3FE",
+        "U+270A U+1F3FD",
+        "U+270A U+1F3FC",
+        "U+270A U+1F3FB"
+      ]
     },
     {
       "no":472,
@@ -1697,37 +1620,14 @@
       "no":508,
       "code":"U+270D",
       "emoji":"✍",
-      "description":"WRITING HAND"
-    },
-    {
-      "no":509,
-      "code":"U+270D U+1F3FB",
-      "emoji":"✍🏻",
-      "description":"Writing hand, type-1-2"
-    },
-    {
-      "no":510,
-      "code":"U+270D U+1F3FC",
-      "emoji":"✍🏼",
-      "description":"Writing hand, type-3"
-    },
-    {
-      "no":511,
-      "code":"U+270D U+1F3FD",
-      "emoji":"✍🏽",
-      "description":"Writing hand, type-4"
-    },
-    {
-      "no":512,
-      "code":"U+270D U+1F3FE",
-      "emoji":"✍🏾",
-      "description":"Writing hand, type-5"
-    },
-    {
-      "no":513,
-      "code":"U+270D U+1F3FF",
-      "emoji":"✍🏿",
-      "description":"Writing hand, type-6"
+      "description":"WRITING HAND",
+      "types":[
+        "U+270D U+1F3FF",
+        "U+270D U+1F3FE",
+        "U+270D U+1F3FD",
+        "U+270D U+1F3FC",
+        "U+270D U+1F3FB"
+      ]
     },
     {
       "no":514,
@@ -1836,10 +1736,13 @@
       "no":558,
       "code":"U+1F441",
       "emoji":"👁",
-      "description":"EYE",
-      "types":[
-        "U+1F441 U+200D U+1F5E8"
-      ]
+      "description":"EYE"
+    },
+    {
+      "no":559,
+      "code":"U+1F441 U+200D U+1F5E8",
+      "emoji":"👁‍🗨",
+      "description":"EYE, LEFT SPEECH BUBBLE≊ eye in speech bubble"
     },
     {
       "no":560,
@@ -4981,37 +4884,14 @@
       "no":1097,
       "code":"U+26F9",
       "emoji":"⛹",
-      "description":"PERSON WITH BALL"
-    },
-    {
-      "no":1098,
-      "code":"U+26F9 U+1F3FB",
-      "emoji":"⛹🏻",
-      "description":"Person with ball, type-1-2"
-    },
-    {
-      "no":1099,
-      "code":"U+26F9 U+1F3FC",
-      "emoji":"⛹🏼",
-      "description":"Person with ball, type-3"
-    },
-    {
-      "no":1100,
-      "code":"U+26F9 U+1F3FD",
-      "emoji":"⛹🏽",
-      "description":"Person with ball, type-4"
-    },
-    {
-      "no":1101,
-      "code":"U+26F9 U+1F3FE",
-      "emoji":"⛹🏾",
-      "description":"Person with ball, type-5"
-    },
-    {
-      "no":1102,
-      "code":"U+26F9 U+1F3FF",
-      "emoji":"⛹🏿",
-      "description":"Person with ball, type-6"
+      "description":"PERSON WITH BALL",
+      "types":[
+        "U+26F9 U+1F3FF",
+        "U+26F9 U+1F3FE",
+        "U+26F9 U+1F3FD",
+        "U+26F9 U+1F3FC",
+        "U+26F9 U+1F3FB"
+      ]
     },
     {
       "no":1103,

@@ -24,15 +24,15 @@ $('td.code').each(function() {
   _emojis.push({
     no: parseInt($(this).first().prev().text()),
     code: $(this).text(),
-    // emoji: $(this).next().text(),
-    // description: $(this).siblings('.name').first().text()
+    emoji: $(this).next().text(),
+    description: $(this).siblings('.name').first().text()
   });
 });
 
 for (var index = _emojis.length - 1; index >= 0; index--) {
   var emoji = _emojis[index];
-  // Determine is this is a child emoji and get the parent emoji
-  var types = emoji.code.match(/U[+]+1[0-9A-F]+/g)
+  // Determine if this is a child emoji and get the parent emoji
+  var types = emoji.code.match(/U[+]+[0-9A-F]*/gi)
   if (Array.isArray(types) && types.length === 2) {
     var parentEmojiCode = types[0];
     var parentEmoji = _emojis.filter(function(_emoji) {

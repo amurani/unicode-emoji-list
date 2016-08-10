@@ -418,7 +418,6 @@
       "no":111,
       "code":"U+1F468",
       "types":[
-        "U+1F468 U+200D U+2764 U+FE0F U+200D U+1F468",
         "U+1F468 U+1F3FF",
         "U+1F468 U+1F3FE",
         "U+1F468 U+1F3FD",
@@ -430,8 +429,6 @@
       "no":117,
       "code":"U+1F469",
       "types":[
-        "U+1F469 U+200D U+2764 U+FE0F U+200D U+1F469",
-        "U+1F469 U+200D U+2764 U+FE0F U+200D U+1F468",
         "U+1F469 U+1F3FF",
         "U+1F469 U+1F3FE",
         "U+1F469 U+1F3FD",
@@ -855,6 +852,18 @@
       "code":"U+1F491"
     },
     {
+      "no":334,
+      "code":"U+1F469 U+200D U+2764 U+FE0F U+200D U+1F468"
+    },
+    {
+      "no":335,
+      "code":"U+1F468 U+200D U+2764 U+FE0F U+200D U+1F468"
+    },
+    {
+      "no":336,
+      "code":"U+1F469 U+200D U+2764 U+FE0F U+200D U+1F469"
+    },
+    {
       "no":337,
       "code":"U+1F46A"
     },
@@ -984,27 +993,14 @@
     },
     {
       "no":382,
-      "code":"U+261D"
-    },
-    {
-      "no":383,
-      "code":"U+261D U+1F3FB"
-    },
-    {
-      "no":384,
-      "code":"U+261D U+1F3FC"
-    },
-    {
-      "no":385,
-      "code":"U+261D U+1F3FD"
-    },
-    {
-      "no":386,
-      "code":"U+261D U+1F3FE"
-    },
-    {
-      "no":387,
-      "code":"U+261D U+1F3FF"
+      "code":"U+261D",
+      "types":[
+        "U+261D U+1F3FF",
+        "U+261D U+1F3FE",
+        "U+261D U+1F3FD",
+        "U+261D U+1F3FC",
+        "U+261D U+1F3FB"
+      ]
     },
     {
       "no":388,
@@ -1041,27 +1037,14 @@
     },
     {
       "no":406,
-      "code":"U+270C"
-    },
-    {
-      "no":407,
-      "code":"U+270C U+1F3FB"
-    },
-    {
-      "no":408,
-      "code":"U+270C U+1F3FC"
-    },
-    {
-      "no":409,
-      "code":"U+270C U+1F3FD"
-    },
-    {
-      "no":410,
-      "code":"U+270C U+1F3FE"
-    },
-    {
-      "no":411,
-      "code":"U+270C U+1F3FF"
+      "code":"U+270C",
+      "types":[
+        "U+270C U+1F3FF",
+        "U+270C U+1F3FE",
+        "U+270C U+1F3FD",
+        "U+270C U+1F3FC",
+        "U+270C U+1F3FB"
+      ]
     },
     {
       "no":412,
@@ -1120,27 +1103,14 @@
     },
     {
       "no":442,
-      "code":"U+270B"
-    },
-    {
-      "no":443,
-      "code":"U+270B U+1F3FB"
-    },
-    {
-      "no":444,
-      "code":"U+270B U+1F3FC"
-    },
-    {
-      "no":445,
-      "code":"U+270B U+1F3FD"
-    },
-    {
-      "no":446,
-      "code":"U+270B U+1F3FE"
-    },
-    {
-      "no":447,
-      "code":"U+270B U+1F3FF"
+      "code":"U+270B",
+      "types":[
+        "U+270B U+1F3FF",
+        "U+270B U+1F3FE",
+        "U+270B U+1F3FD",
+        "U+270B U+1F3FC",
+        "U+270B U+1F3FB"
+      ]
     },
     {
       "no":448,
@@ -1177,27 +1147,14 @@
     },
     {
       "no":466,
-      "code":"U+270A"
-    },
-    {
-      "no":467,
-      "code":"U+270A U+1F3FB"
-    },
-    {
-      "no":468,
-      "code":"U+270A U+1F3FC"
-    },
-    {
-      "no":469,
-      "code":"U+270A U+1F3FD"
-    },
-    {
-      "no":470,
-      "code":"U+270A U+1F3FE"
-    },
-    {
-      "no":471,
-      "code":"U+270A U+1F3FF"
+      "code":"U+270A",
+      "types":[
+        "U+270A U+1F3FF",
+        "U+270A U+1F3FE",
+        "U+270A U+1F3FD",
+        "U+270A U+1F3FC",
+        "U+270A U+1F3FB"
+      ]
     },
     {
       "no":472,
@@ -1267,27 +1224,14 @@
     },
     {
       "no":508,
-      "code":"U+270D"
-    },
-    {
-      "no":509,
-      "code":"U+270D U+1F3FB"
-    },
-    {
-      "no":510,
-      "code":"U+270D U+1F3FC"
-    },
-    {
-      "no":511,
-      "code":"U+270D U+1F3FD"
-    },
-    {
-      "no":512,
-      "code":"U+270D U+1F3FE"
-    },
-    {
-      "no":513,
-      "code":"U+270D U+1F3FF"
+      "code":"U+270D",
+      "types":[
+        "U+270D U+1F3FF",
+        "U+270D U+1F3FE",
+        "U+270D U+1F3FD",
+        "U+270D U+1F3FC",
+        "U+270D U+1F3FB"
+      ]
     },
     {
       "no":514,
@@ -1376,10 +1320,11 @@
     },
     {
       "no":558,
-      "code":"U+1F441",
-      "types":[
-        "U+1F441 U+200D U+1F5E8"
-      ]
+      "code":"U+1F441"
+    },
+    {
+      "no":559,
+      "code":"U+1F441 U+200D U+1F5E8"
     },
     {
       "no":560,
@@ -3485,27 +3430,14 @@
     },
     {
       "no":1097,
-      "code":"U+26F9"
-    },
-    {
-      "no":1098,
-      "code":"U+26F9 U+1F3FB"
-    },
-    {
-      "no":1099,
-      "code":"U+26F9 U+1F3FC"
-    },
-    {
-      "no":1100,
-      "code":"U+26F9 U+1F3FD"
-    },
-    {
-      "no":1101,
-      "code":"U+26F9 U+1F3FE"
-    },
-    {
-      "no":1102,
-      "code":"U+26F9 U+1F3FF"
+      "code":"U+26F9",
+      "types":[
+        "U+26F9 U+1F3FF",
+        "U+26F9 U+1F3FE",
+        "U+26F9 U+1F3FD",
+        "U+26F9 U+1F3FC",
+        "U+26F9 U+1F3FB"
+      ]
     },
     {
       "no":1103,
