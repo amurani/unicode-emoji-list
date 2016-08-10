@@ -56,7 +56,7 @@ Also, where applicable, the emoji's object will have a __type__ property to acco
   ...
 ```
 
-*In both json files ignore the __no__ property. I'll probably remove it later*
+*In both json files ignore the __no__ property. I'll probably remove it later. The __flagged__ field indicates that browsers may not support this specific emoji. If you need a filter check this property.*
 
 #### API
 Not sure how long this will be available for but I came across [Myjson](http://myjson.com/) and I added the content of `simple-emoji-list.json`. You can access its JSON content via [https://api.myjson.com/bins/4sz7d](https://api.myjson.com/bins/4sz7d).
