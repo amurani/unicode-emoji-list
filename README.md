@@ -16,6 +16,7 @@ The `simple-emoji-list.json` file is supposed to be smaller in size compared to 
   {
     "no":1,
     "code":"U+1F600",
+    "flagged": false,
     "keywords": ["face", "grin"]
   },
   ...
@@ -30,6 +31,7 @@ and
     "code":"U+1F600",
     "emoji":"😀",
     "description":"GRINNING FACE",
+    "flagged": false,
     "keywords": ["face", "grin"]
   },
   ...
@@ -41,14 +43,15 @@ Also, where applicable, the emoji's object will have a __type__ property to acco
   {
     "no":99,
     "code":"U+1F466",
+    "flagged": false,
+    "keywords": ["boy"],
     "types":[
       "U+1F466 U+1F3FF",
       "U+1F466 U+1F3FE",
       "U+1F466 U+1F3FD",
       "U+1F466 U+1F3FC",
       "U+1F466 U+1F3FB"
-    ],
-    "keywords": ["boy"]
+    ]
   },
   ...
 ```
